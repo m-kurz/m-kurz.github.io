@@ -1,0 +1,6 @@
+*.tmp
+*.lock
+public/
+resources/
+hugo_stats.json
+go.sum

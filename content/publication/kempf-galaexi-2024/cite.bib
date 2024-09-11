@@ -1,0 +1,14 @@
+@misc{kempf_galaexi_2024,
+ abstract = {This work presents GAL\\AE\XI as a novel, energy-efficient flow solver for the simulation of compressible flows on unstructured meshes leveraging the parallel computing power of modern Graphics Processing Units (GPUs). GAL\\AE\XI implements the high-order Discontinuous Galerkin Spectral Element Method (DGSEM) using shock capturing with a finite-volume subcell approach to ensure the stability of the high-order scheme near shocks. This work provides details on the general code design, the parallelization strategy, and the implementation approach for the compute kernels with a focus on the element local mappings between volume and surface data due to the unstructured mesh. GAL\\AE\XI exhibits excellent strong scaling properties up to 1024 GPUs if each GPU is assigned a minimum of one million degrees of freedom degrees of freedom. To verify its implementation, a convergence study is performed that recovers the theoretical order of convergence of the implemented numerical schemes. Moreover, the solver is validated using both the incompressible and compressible formulation of the Taylor-Green-Vortex at a Mach number of 0.1 and 1.25, respectively. A mesh convergence study shows that the results converge to the high-fidelity reference solution and that the results match the original CPU implementation. Finally, GAL\\AE\XI is applied to a large-scale wall-resolved large eddy simulation of a linear cascade of the NASA Rotor 37. Here, the supersonic region and shocks at the leading edge are captured accurately and robustly by the implemented shock-capturing approach. It is demonstrated that GAL\\AE\XI requires less than half of the energy to carry out this simulation in comparison to the reference CPU implementation. This renders GAL\\AE\XI as a potent tool for accurate and efficient simulations of compressible flows in the realm of exascale computing and the associated new HPC architectures.},
+ author = {Kempf, Daniel and Kurz, Marius and Blind, Marcel and Kopper, Patrick and Offenhäuser, Philipp and Schwarz, Anna and Starr, Spencer and Keim, Jens and Beck, Andrea},
+ doi = {10.48550/arXiv.2404.12703},
+ keywords = {Computer Science - Mathematical Software, Computer Science - Computational Engineering, Finance, and Science},
+ month = {April},
+ note = {arXiv:2404.12703 [cs]},
+ publisher = {arXiv},
+ shorttitle = {GALAEXI},
+ title = {GALAEXI: Solving complex compressible flows with high-order discontinuous Galerkin methods on accelerator-based systems},
+ url = {http://arxiv.org/abs/2404.12703},
+ urldate = {2024-08-23},
+ year = {2024}
+}
