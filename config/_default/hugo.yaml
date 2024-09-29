@@ -53,3 +53,17 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
+############################
+## CUSTOM
+############################
+cascade:
+  # Publications
+  - _target:
+      path: '/publication/**'
+    pager: false
+    reading_time: false
+    show_related: true
+    share: false
+    profile: false
+    show_date: false
