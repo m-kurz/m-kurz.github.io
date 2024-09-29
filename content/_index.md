@@ -26,7 +26,7 @@ sections:
           # Add your image background to `assets/media/`.
           filename: turbine.jpg
           filters:
-            brightness: 0.35
+            brightness: 0.3
           size: cover
           position: bottom
           parallax: true
@@ -42,32 +42,34 @@ sections:
       # Education or Experience section first?
       is_education_first: false
 
-  - block: markdown
-    content:
-      title: 'Hey there 👋'
-      subtitle: ''
-      text: |-
-        🔭   I’ve always been driven by a blend of scientific curiosity and technical challenges.
+  #- block: markdown
+  #  content:
+  #    title: 'Hey there 👋'
+  #    subtitle: ''
+  #    text: |-
+  #      🔭   I’ve always been driven by a blend of scientific curiosity and technical challenges.
 
-        🌟   I thrive on the synergy between science and number crunching—whether it's optimizing algorithms for novel HPC systems, implementing cutting-edge numerical methods or using machine learning to rethink traditional simulations.
+  #      🌟   I thrive on the synergy between science and number crunching—whether it's optimizing algorithms for novel HPC systems, implementing cutting-edge numerical methods or using machine learning to rethink traditional simulations.
 
-        🚀   In recent years, I've applied HPC to enable large-scale CFD simulations of turbulent flows and explored how machine learning can be used to develop smarter, data-driven turbulence models for large eddy simulation.
+  #      🚀   In recent years, I've applied HPC to enable large-scale CFD simulations of turbulent flows and explored how machine learning can be used to develop smarter, data-driven turbulence models for large eddy simulation.
 
-        📝   Along the way, I’ve contributed to several open-source projects both inside and outside these fields.
+  #      📝   Along the way, I’ve contributed to several open-source projects both inside and outside these fields.
 
-        💬   If you're into CFD, HPC, or the fusion of machine learning and simulation, feel free to reach out!
-    design:
-      columns: '1'
-      css_class: dark
-      background:
-        color: black
-        image:
-          filename: turbine.jpg
-          filters:
-            brightness: 0.3
-          size: cover
-          position: bottom
-          parallax: true
+  #      💬   If you're into CFD, HPC, or the fusion of machine learning and simulation, feel free to reach out!
+  #  design:
+  #    columns: '1'
+  #    css_class: dark
+  #    spacing:
+  #      padding: [25px, 25px, 25px, 25px]
+  #    background:
+  #      color: black
+  #      image:
+  #        filename: turbine.jpg
+  #        filters:
+  #          brightness: 0.3
+  #        size: cover
+  #        position: bottom
+  #        parallax: true
 
   - block: collection
     id: papers
@@ -80,6 +82,16 @@ sections:
     design:
       view: article-grid
       columns: 3
+      css_class: dark
+      background:
+        color: black
+        image:
+          filename: turbine.jpg
+          filters:
+            brightness: 0.35
+          size: cover
+          position: bottom
+          parallax: true
 
   - block: collection
     content:
@@ -92,5 +104,5 @@ sections:
     design:
       view: citation
       spacing:
-        padding: [0, 0, 0, 0]
+        padding: [0, 25px, 0, 25px]
 ---
