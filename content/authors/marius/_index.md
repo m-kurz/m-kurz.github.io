@@ -30,17 +30,15 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
+  - icon: envelope
     url: 'mailto:m.kurz@cwi.nl'
     label: E-mail Me
-#  - icon: brands/x
-#    url: https://twitter.com/GetResearchDev
-#  - icon: brands/instagram
-#    url: https://www.instagram.com/
   - icon: brands/github
     url: https://github.com/m-kurz
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/m-kurz
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Marius-Kurz-3
   - icon: academicons/google-scholar
     url: https://scholar.google.de/citations?user=bVURvdsAAAAJ
   - icon: academicons/orcid
