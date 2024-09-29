@@ -5,7 +5,7 @@ authors:
 - Min Gao
 - Daniel Kempf
 - Patrick Kopper
-- Marius Kurz
+- marius
 - Anna Schwarz
 - Andrea Beck
 date: '2023-06-01'
@@ -13,6 +13,7 @@ publishDate: '2024-09-11T19:45:20.312152Z'
 publication_types:
 - manuscript
 publication: '*arXiv*'
+doi: 10.48550/arXiv.2306.12891
 abstract: Modern high-order discretizations bear considerable potential for the exascale
   era due to their high fidelity and the high, local computational load that allows
   for computational efficiency in massively parallel simulations. To this end, the
@@ -31,11 +32,9 @@ abstract: Modern high-order discretizations bear considerable potential for the 
   we present the TensorFlow-Fortran-Binding (TFFB) as an easy-to-use library to deploy
   trained machine learning models in Fortran solvers such as FLEXI.
 tags:
-- Computer Science - Distributed
-- Parallel
-- and Cluster Computing
-- own
+- High-Performance Computing
 links:
 - name: URL
   url: http://arxiv.org/abs/2306.12891
+summary: This paper summarizes the recent progress made to extend FLEXI for the exascale era and demonstrates its excellent scaling to over 500 000 CPU cores on HAWK at the HLRS.
 ---

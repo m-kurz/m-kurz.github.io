@@ -1,7 +1,7 @@
 ---
 title: Machine Learning Methods for Modeling Turbulence in Large Eddy Simulations
 authors:
-- Marius Kurz
+- marius
 date: '2024-01-01'
 publishDate: '2024-09-11T19:45:20.248500Z'
 publication_types:

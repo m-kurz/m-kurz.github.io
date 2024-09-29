@@ -1,13 +1,12 @@
 ---
-title: Increasing the Flexibility of the High Order Discontinuous Galerkin Framework
-  FLEXI Towards Large Scale Industrial Applications
+title: Increasing the Flexibility of the High Order Discontinuous Galerkin Framework FLEXI Towards Large Scale Industrial Applications
 authors:
 - Andrea Beck
 - Min Gao
 - Daniel Kempf
 - Patrick Kopper
 - Nico Krais
-- Marius Kurz
+- marius
 - Jonas Zeifang
 - Claus-Dieter Munz
 date: '2021-01-01'
@@ -27,4 +26,10 @@ abstract: 'This paper summarizes our progress in the application and improvement
   layer and provide comparison to DNS data. Lastly, we demonstrate how to extend the
   high order scheme with a consistent and conservative sliding mesh interface, and
   present results of a 1.5 stage turbine simulation with wall-resolved LES.'
+tags:
+- High-Performance Computing
+- Discontinuous Galerkin
+links:
+- name: URL
+  url: https://link.springer.com/chapter/10.1007/978-3-030-80602-6_22
 ---

@@ -2,7 +2,7 @@
 title: Boundary-Layer Dynamics in Wall-Resolved LES Across Multiple Turbine Stages
 authors:
 - Patrick Kopper
-- Marius Kurz
+- marius
 - Christoph Wenzel
 - Jakob Dürrwächter
 - Christian Koch

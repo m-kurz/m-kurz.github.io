@@ -2,7 +2,7 @@
 title: Investigating Model-Data Inconsistency in Data-Informed Turbulence Closure
   Terms
 authors:
-- Marius Kurz
+- marius
 - Andrea Beck
 date: '2021-03-01'
 publishDate: '2024-09-11T19:45:20.242402Z'

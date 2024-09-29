@@ -3,7 +3,7 @@ title: Structured Deep Kernel Networks for Data-Driven Closure Terms of Turbul
   Flows
 authors:
 - Tizian Wenzel
-- Marius Kurz
+- marius
 - Andrea Beck
 - Gabriele Santin
 - Bernard Haasdonk

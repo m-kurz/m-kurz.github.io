@@ -4,7 +4,7 @@ title: Toward discretization-consistent closure schemes for large eddy simulatio
 authors:
 - Andrea Beck
 - marius
-date: '2023-12-01'
+date: '2023-12-12'
 publishDate: '2024-09-11T19:45:20.280781Z'
 publication_types:
 - article-journal

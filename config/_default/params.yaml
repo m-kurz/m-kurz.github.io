@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
+  color: teal
 
 # SEO
 marketing:
@@ -14,8 +14,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: 'Personal Homepage and Blog of Marius Kurz'
+    #twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -34,13 +34,16 @@ header:
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
+    align: right
+    highlight_active_link: true
     logo:
-      text: "Your Name"
+      text: "Marius Kurz"
+      filename: "icon.png"
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Marius Kurz. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false

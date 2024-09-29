@@ -1,7 +1,7 @@
 ---
 title: Deep reinforcement learning for turbulence modeling in large eddy simulations
 authors:
-- Marius Kurz
+- marius
 - Philipp Offenhäuser
 - Andrea Beck
 date: '2023-02-01'

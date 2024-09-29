@@ -1,11 +1,10 @@
 ---
-title: Performance Improvements for Large-Scale Simulations using the Discontinuous
-  Galerkin Framework FLEXI
+title: Performance Improvements for Large-Scale Simulations using the Discontinuous Galerkin Framework FLEXI
 authors:
 - Marcel Blind
 - Patrick Kopper
 - Daniel Kempf
-- Marius Kurz
+- marius
 - Anna Schwarz
 - Claus-Dieter Munz
 - Andrea Beck
@@ -25,4 +24,8 @@ abstract: Large-scale simulations pose significant challenges not only to the so
   of the current performance and scaling behavior is given for up to 262144 processes.
   FLEXI shows excellent scalability for all tested features. We conclude by showing
   selected applications, where we use the introduced improvements to maximize performance.
+summary: This work presents generally applicable improvements to enhance the performance of a pre- and postprossing framework for large-scale jobs.
+links:
+- name: URL
+  url: https://link.springer.com/chapter/10.1007/978-3-031-46870-4_17
 ---

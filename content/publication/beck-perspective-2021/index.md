@@ -2,8 +2,8 @@
 title: A perspective on machine learning methods in turbulence modeling
 authors:
 - Andrea Beck
-- Marius Kurz
-date: '2021-03-01'
+- marius
+date: '2021-03-04'
 publishDate: '2024-09-11T19:45:20.318165Z'
 publication_types:
 - article-journal
@@ -23,8 +23,11 @@ abstract: This work presents a review of the current state of research in data‚Ä
   methods, highlight important developments, and put them into the context of the
   discussed challenges.
 tags:
-- own
+- Machine Learning
+- Turbulence Modeling
+- Review Article
 links:
 - name: URL
   url: https://onlinelibrary.wiley.com/doi/10.1002/gamm.202100002
+summary: This work presents a review and a perspective of the current state of research in data‚Äêdriven turbulence closure modeling.
 ---

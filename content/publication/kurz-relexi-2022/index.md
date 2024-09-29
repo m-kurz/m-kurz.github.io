@@ -1,8 +1,7 @@
 ---
-title: Relexi — A scalable open source reinforcement learning framework for high-performance
-  computing
+title: Relexi — A scalable open source reinforcement learning framework for high-performance computing
 authors:
-- Marius Kurz
+- marius
 - Philipp Offenhäuser
 - Dominic Viola
 - Michael Resch
@@ -20,10 +19,12 @@ abstract: Relexi is an open source reinforcement learning (RL) framework written
   with the RL library TF-Agents at scale on modern high-performance computing (HPC)
   hardware using the SmartSim library. Relexi thus provides an easy way to explore
   the potential of RL for HPC applications.
+summary: Relexi is an open source framework that allows to employ reinforcement learning for computationally intensive simulation environments.
 tags:
+- Scientific machine learning
 - High-performance computing
 - Reinforcement learning
-- Scientific machine learning
+featured: true
 links:
 - name: URL
   url: https://www.sciencedirect.com/science/article/pii/S2665963822001063
