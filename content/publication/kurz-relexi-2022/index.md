@@ -24,7 +24,7 @@ tags:
 - Scientific machine learning
 - High-performance computing
 - Reinforcement learning
-featured: true
+featured: false
 links:
 - name: URL
   url: https://www.sciencedirect.com/science/article/pii/S2665963822001063

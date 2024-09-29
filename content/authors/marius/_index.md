@@ -50,7 +50,7 @@ interests:
   - Computational Fluid Dynamics
   - Machine Learning
   - High-Performance Computing
-  - Computational Science
+  - Turbulence Modeling
 
 education:
   - area: Doctor of Engineering (Dr.-Ing.)
@@ -95,7 +95,6 @@ work:
       - Research on machine learning for turbulence modeling, computational fluid dynamics and high-performance computing
       - Development of multiple software packages in Python, Fortran and C++
       - Publishing research results in peer-reviewed journals and conferences
-      - Managing compute budgets at national supercomputing facilities
       - Supervising student theses, organizing lectures, seminars and exams
 
   - position: Research Assistant
@@ -104,15 +103,15 @@ work:
     company_logo: ''
     date_start: 2017-12-15
     date_end: 2018-09-30
-    summary: Implementation of Uncertainty Quantification methods in the discontinuous Galerkin solver FLEXI
+    summary: Implementation, validation and optimization of uncertainty quantification methods in the flow solver FLEXI
 
   - position: Internship
     company_name: Liebherr Aerospace Lindenberg GmbH
-    company_url: ''
-    company_logo: ''
+    company_url: 'https://www.liebherr.com/de/deu/%C3%BCber-liebherr/liebherr-weltweit/deutschland/lindenberg/aerospace-lindenberg.html'
+    company_logo: 'https://www.liebherr.com/media/global/img/logos/logo_ci_liebherr_fl.svg'
     date_start: 2016-04-01
     date_end: 2016-10-31
-    summary: Validation of novel model-based design methods for flight controllers
+    summary: Validation of model-based design methods for flight controllers in MATLAB/Simulink
 
   #- position: Intern
   #  company_name: Liebherr Aerospace Lindenberg GmbH
@@ -203,4 +202,5 @@ work:
 ## About Me
 
 I am a researcher in machine learning for scientific computing with special emphasis on computational fluid mechanics, numerical methods and high-performance computing.
-Currently I am a postdoctoral research fellow at Centrum Wiskunde & Informatice in Amsterdam.
+
+Currently I am a Postdoc at [Centrum Wiskunde & Informatica](https://cwi.nl) in Amsterdam.

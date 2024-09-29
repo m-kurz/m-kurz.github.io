@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: "Marius Kurz"
-date: 2022-10-24
+date: 2024-09-29
 type: landing
 
 design:
@@ -16,7 +16,7 @@ sections:
       text: ""
       ## Show a call-to-action button under your biography? (optional)
       #button:
-      #  text: Downloa dCi
+      #  text: Download CV
       #  url: uploads/resume.pdf
     design:
       css_class: dark
@@ -26,31 +26,49 @@ sections:
           # Add your image background to `assets/media/`.
           filename: turbine.jpg
           filters:
-            brightness: 0.4
+            brightness: 0.35
           size: cover
           position: bottom
           parallax: true
-  #- block: markdown
-  #  content:
-  #    title: '📚 My Research'
-  #    subtitle: ''
-  #    text: |-
-  #      Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
 
-  #      I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-  #      
-  #      Please reach out to collaborate 😃
-  #  design:
-  #    columns: '1'
   - block: resume-experience
     id: experience
+    draft: true
     content:
       username: marius
     design:
       # Hugo date format
       date_format: 'January 2006'
       # Education or Experience section first?
-      is_education_first: true
+      is_education_first: false
+
+  - block: markdown
+    content:
+      title: 'Hey there 👋'
+      subtitle: ''
+      text: |-
+        🔭   I’ve always been driven by a blend of scientific curiosity and technical challenges.
+
+        🌟   I thrive on the synergy between science and number crunching—whether it's optimizing algorithms for novel HPC systems, implementing cutting-edge numerical methods or using machine learning to rethink traditional simulations.
+
+        🚀   In recent years, I've applied HPC to enable large-scale CFD simulations of turbulent flows and explored how machine learning can be used to develop smarter, data-driven turbulence models for large eddy simulation.
+
+        📝   Along the way, I’ve contributed to several open-source projects both inside and outside these fields.
+
+        💬   If you're into CFD, HPC, or the fusion of machine learning and simulation, feel free to reach out!
+    design:
+      columns: '1'
+      css_class: dark
+      background:
+        color: black
+        image:
+          filename: turbine.jpg
+          filters:
+            brightness: 0.3
+          size: cover
+          position: bottom
+          parallax: true
+
   - block: collection
     id: papers
     content:
@@ -61,10 +79,11 @@ sections:
         featured_only: true
     design:
       view: article-grid
-      columns: 4
+      columns: 3
+
   - block: collection
     content:
-      title: 
+      title:
       count: 6
       filters:
         folders:
@@ -74,45 +93,4 @@ sections:
       view: citation
       spacing:
         padding: [0, 0, 0, 0]
-      #view: date-title-summary
-
-#  - block: collection
-#    id: talks
-#    content:
-#      title: Recent & Upcoming Talks
-#      filters:
-#        folders:
-#          - event
-#    design:
-#      view: article-grid
-#      columns: 1
-  #- block: collection
-  #  id: news
-  #  content:
-  #    title: Recent News
-  #    subtitle: ''
-  #    text: ''
-  #    # Page type to display. E.g. post, talk, publication...
-  #    page_type: post
-  #    # Choose how many pages you would like to display (0 = all pages)
-  #    count: 3
-  #    # Filter on criteria
-  #    filters:
-  #      author: ""
-  #      category: ""
-  #      tag: ""
-  #      exclude_featured: false
-  #      exclude_future: false
-  #      exclude_past: false
-  #      publication_type: ""
-  #    # Choose how many pages you would like to offset by
-  #    offset: 0
-  #    # Page order: descending (desc) or ascending (asc) date.
-  #    order: desc
-  #  design:
-  #    # Choose a layout view
-  #    view: date-title-summary
-  #    # Reduce spacing
-  #    spacing:
-  #      padding: [0, 0, 0, 0]
 ---
